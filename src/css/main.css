@@ -1,0 +1,22 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(235, 108, 108), rgb(73, 192, 73));
+    font-family: 'Fraunces', serif;
+    padding: 35px;
+    user-select: none;
+
+}
+
+main {
+    font-family: 'Fraunces', serif;
+    margin: auto;
+}
+
